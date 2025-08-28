@@ -17,8 +17,6 @@ Requirements:
 - Output only the code (no explanations).
 """
 
-
-
 model = genai.GenerativeModel('gemini-pro')
 try:
     response = model.generate_content(prompt)
