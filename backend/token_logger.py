@@ -8,6 +8,7 @@ def log_tokens(model: str, prompt: str, response: str):
     Prints to console and appends to backend/logs/token_usage.log
     """
     # load encoder for the given model
+
     encoding = tiktoken.encoding_for_model(model)
 
     prompt_tokens = len(encoding.encode(prompt))
@@ -29,3 +30,4 @@ def log_tokens(model: str, prompt: str, response: str):
         f.write(log_line + "\n")
 
     return total_tokens
+
