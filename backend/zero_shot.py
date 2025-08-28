@@ -8,6 +8,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 prompt = """
+
 You are an expert Python programmer. 
 Task: Write a Python function to check whether a given string is a palindrome. 
 Requirements:
@@ -15,6 +16,8 @@ Requirements:
 - Include comments in the code for clarity.
 - Output only the code (no explanations).
 """
+
+
 
 model = genai.GenerativeModel('gemini-pro')
 try:
