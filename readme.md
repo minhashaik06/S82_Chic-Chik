@@ -34,10 +34,4 @@ The AI suggests outfits based on prompts, user preferences, and different sampli
   3. LLM processes input with chosen **sampling strategy**.  
   4. Resulting outfit suggestions are returned.  
 
----
 
-## ⚙️ Setup & Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/ai-outfit-suggester.git
-   cd ai-outfit-suggester/backend
